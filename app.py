@@ -7,7 +7,7 @@ import os
 print("File exists:", os.path.exists("models\cnn.keras"))
 
 
-model = tf.keras.models.load_model("D:\Skills\Machine learning\Cat&Dog_PredictionSystem\models\cnn.keras")
+model = tf.keras.models.load_model("models\cnn.keras")
 class_labels = ['cat', 'dog']
 
 st.title("Image Classifier")
